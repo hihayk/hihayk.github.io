@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'CircularStd';
+  src: url("assets/fonts/circular/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("assets/fonts/circular/CircularStd-Book.otf") format("opentype"), url("assets/fonts/circular/CircularStd-Book.woff") format("woff"), url("assets/fonts/circular/CircularStd-Book.ttf") format("truetype"), url("assets/fonts/circular/CircularStd-Book.svg#CircularStd-Book") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("assets/fonts/circular/CircularStd-Medium.eot?#iefix") format("embedded-opentype"), url("assets/fonts/circular/CircularStd-Medium.otf") format("opentype"), url("assets/fonts/circular/CircularStd-Medium.woff") format("woff"), url("assets/fonts/circular/CircularStd-Medium.ttf") format("truetype"), url("assets/fonts/circular/CircularStd-Medium.svg#CircularStd-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("assets/fonts/circular/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/circular/CircularStd-Bold.otf") format("opentype"), url("assets/fonts/circular/CircularStd-Bold.woff") format("woff"), url("assets/fonts/circular/CircularStd-Bold.ttf") format("truetype"), url("assets/fonts/circular/CircularStd-Bold.svg#CircularStd-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("assets/fonts/circular/CircularStd-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/circular/CircularStd-Black.otf") format("opentype"), url("assets/fonts/circular/CircularStd-Black.woff") format("woff"), url("assets/fonts/circular/CircularStd-Black.ttf") format("truetype"), url("assets/fonts/circular/CircularStd-Black.svg#CircularStd-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+body {
+  font-family: 'CircularStd';
+  font-size: 48px;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 32px;
+  }
+}
+
+.container {
+  padding: 48px 64px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 16px 24px;
+  }
+}
