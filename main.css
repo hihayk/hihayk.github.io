@@ -28,6 +28,12 @@ li {
   display: flex;
 }
 
+@media (max-width: 800px) {
+  li {
+    margin-top: 0.2em;
+  }
+}
+
 li:hover {
   color: hsla();
 }
@@ -55,10 +61,6 @@ li:hover {
 
 .fw-400 { font-weight: 400 }
 .fw-700 { font-weight: 700 }
-
-@media (max-width: 800px) {
-  .fs-l { line-height: 1.2 }
-}
 
 
 
