@@ -1,7 +1,7 @@
 :root {
-  --fs-1: 1vw;
-  --fs-2: 2vw;
-  --fs-3: 8vw;
+  --fs-s: 1vw;
+  --fs-m: calc(1vw + 1rem);
+  --fs-l: calc(7vw + 1rem);
 
   --sp-m: 5vw;
 }
@@ -49,12 +49,16 @@ li:hover {
   color: hsl(0, 80%, 44%);
 }
 
-.fs-1 { font-size: var(--fs-1) }
-.fs-2 { font-size: var(--fs-2) }
-.fs-3 { font-size: var(--fs-3); line-height: 0.95; letter-spacing: -0.05em }
+.fs-s { font-size: var(--fs-s) }
+.fs-m { font-size: var(--fs-m) }
+.fs-l { font-size: var(--fs-l); line-height: 0.95; letter-spacing: -0.05em }
 
 .fw-400 { font-weight: 400 }
 .fw-700 { font-weight: 700 }
+
+@media (max-width: 800px) {
+  .fs-l { line-height: 1.2 }
+}
 
 
 
