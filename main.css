@@ -6,16 +6,25 @@
   --sp-m: 5vw;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-family: system-ui, sans-serif;
   padding: calc(4vw + 0.1rem);
 }
 
-h1, h2, h3, h4, h5, h6, ul, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
   margin: unset;
 }
 
@@ -41,7 +50,7 @@ li:hover {
 li:before {
   content: "→";
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   margin-left: 0;
   display: inline-flex;
   color: inherit;
@@ -55,13 +64,21 @@ li:hover {
   color: hsl(0, 80%, 44%);
 }
 
-.fs-s { font-size: var(--fs-s) }
-.fs-m { font-size: var(--fs-m) }
-.fs-l { font-size: var(--fs-l); line-height: 0.95; letter-spacing: -0.05em }
+.fs-s {
+  font-size: var(--fs-s);
+}
+.fs-m {
+  font-size: var(--fs-m);
+}
+.fs-l {
+  font-size: var(--fs-l);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
 
-.fw-400 { font-weight: 400 }
-.fw-700 { font-weight: 700 }
-
-
-
-
+.fw-400 {
+  font-weight: 400;
+}
+.fw-700 {
+  font-weight: 700;
+}
